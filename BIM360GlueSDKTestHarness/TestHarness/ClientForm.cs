@@ -74,7 +74,7 @@ namespace BIM360SDKTestClient
       myRegistry.BaseRegistryKey = Registry.CurrentUser;
       myRegistry.SubKey = regSubKey;
 
-      txt_base_url.Text = myRegistry.Read("BASE_URL", "http://bim360.autodesk.com/api/");
+      txt_base_url.Text = myRegistry.Read("BASE_URL", "https://b4.autodesk.com:443/api/");
       txt_api_key.Text = myRegistry.Read("API_KEY", "");
       txt_api_secret.Text = myRegistry.Read("API_SECRET", "");
       txt_company_id.Text = myRegistry.Read("COMPANY_ID", "");
